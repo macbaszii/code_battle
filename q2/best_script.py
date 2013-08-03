@@ -1,7 +1,7 @@
 from collections import Counter
 
 numbers_file = open("numbers.txt")
-numbers_list = [int(x) for x in (numbers_file.readlines())]
+numbers_list = numbers_file.readlines()#[x for x in ()]
 
 output_file = open("run_result.txt", "w")
 
